@@ -1,0 +1,38 @@
+/* taking away the bad spaces created by the browsers */
+* {
+  padding: 0;
+  margin: 0;
+}
+.App{
+  height: 100vh;
+}
+main{
+  height: 75%;
+}
+header{
+  height: 10%;
+  background-color: aqua;
+}
+footer{
+  height: 15%;
+  background-color: aqua;
+}
+.superior-left{
+  width: 40%;
+  border: 3px solid green;
+  background-color: brown;
+}
+.superior-right{
+  width: 60%;
+  border: 3px solid red;
+}
+
+.superior-right-up{
+  height: 60%;
+  background-color: blueviolet;
+}
+
+.superior-right-down{
+  height: 40%;
+  background-color: chartreuse;
+}
