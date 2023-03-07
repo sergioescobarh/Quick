@@ -1,9 +1,9 @@
 import './toDo.css';
 
-function ToDo (){
+function ToDo (props){
     return(
         <div>
-        Todooo
+        {props.text}
         </div>
     )
 }

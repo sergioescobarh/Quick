@@ -7,7 +7,13 @@ function App() {
     <div className="App">
 
       <header>
-        headeeeer
+        <nav  className="nav-left">
+          izq
+        </nav>
+        <h2>QUICK</h2>
+        <nav className="nav-right">
+          der
+        </nav>
       </header>
 
       <main className='principal'>
