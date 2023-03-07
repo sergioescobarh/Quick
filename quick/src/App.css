@@ -29,7 +29,8 @@ footer{
 
 .superior-right-up{
   height: 60%;
-  background-color: blueviolet;
+  background-image: url('../public/images/wall.png');
+  background-size: cover;
 }
 
 .superior-right-down{
