@@ -1,0 +1,13 @@
+
+
+main {
+    .todo-container {
+        ul {
+        display:flex;
+        flex-direction: column;
+            li {
+                border: 5px solid red;
+            }
+        }
+    }
+}
