@@ -1,7 +1,8 @@
 import { useState } from 'react';
+import {Header} from '../../organisms/Header/Header'
 import {ToDo} from '../../molecules/ToDo';
 import {Search} from '../../molecules/Search';
-import './home.css';
+import './home.scss';
 //functions of Home component
 
 
@@ -22,6 +23,9 @@ function Home () {
 
     return (
         <>
+            <header>
+                <Header/>
+            </header>
             <main>
                 <div className="input-container">
                     <Search toDoSerched={toDoSerched} setToDoSerched={setToDoSerched}

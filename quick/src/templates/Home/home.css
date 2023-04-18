@@ -1,9 +1,0 @@
-main .todo-container ul {
-  display: flex;
-  flex-direction: column;
-}
-main .todo-container ul li {
-  border: 5px solid red;
-}
-
-
