@@ -1,0 +1,21 @@
+
+header {
+    background-color: rgba(23, 21, 21, 0.902);
+    height: 8vh;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+}
+main {
+    .todo-container {
+        ul {
+        display:flex;
+        flex-direction: column;
+            li {
+                list-style-type: none;
+                border: 5px solid red;
+            }
+        }
+    }
+}
